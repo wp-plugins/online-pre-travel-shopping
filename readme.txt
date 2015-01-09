@@ -58,7 +58,7 @@ visit us at: https://www.shopnfly.com/affiliates to get your Affiliate ID
 Enter your affiliate ID and set up the default settings on plugin's admin page
 
 III. Usage
-Copy one of the following shorcodes into any post inside WordPress visual editor:
+From the plugin admin you can copy one of the shorcodes into any post inside WordPress visual editor:
 
 [tg_searchboxes options='{"size":"dynamic"}']
 
@@ -74,15 +74,15 @@ or simply hit the orange palm tree icon inside your wordpress editor, customize 
 
 To add a searchbox to your header, footer or sidebar, open the template file in WordPress editor and copy the following code in it (based on the sice you want to use):
 
-<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"dynamic"}\']'); ?>
+`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"dynamic"}\']'); ?>`
 
-<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"160x533”}\’]’); ?>
+`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"160x533”}\’]’); ?>`
 
-<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"300x250"}\']'); ?>
+`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"300x250"}\']'); ?>`
 
-<?php echo do_shortcode('[tg_searchboxes options=\'{"size”:”700x380”}\’]’); ?>
+`<?php echo do_shortcode('[tg_searchboxes options=\'{"size”:”700x380”}\’]’); ?>`
 
-<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"728x100”}\’]’); ?>
+`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"728x100”}\’]’); ?>`
 
 
 == Frequently Asked Questions ==
@@ -112,7 +112,3 @@ Please feel free to contact us at partners@shopnfly.com
 
 = 1.0 =
 
-== Upgrade Notice ==
-
-
-`<?php code(); // goes in backticks ?>`
