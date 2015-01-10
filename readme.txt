@@ -60,29 +60,27 @@ Enter your affiliate ID and set up the default settings on plugin's admin page
 III. Usage
 From the plugin admin you can copy one of the shorcodes into any post inside WordPress visual editor:
 
-[tg_searchboxes options='{"size":"dynamic"}']
+Editor Shortcode : 
 
-[tg_searchboxes options='{"size":"160x533”}’]
+`[sf_travel_shop t = "rectangle" bc = "#8853c1" bac = "#7f25b9" tc = "#7425b9" buc = "#b92547" butc = "#b9ab25"]`
 
-[tg_searchboxes options='{"size":"300x250"}']
+`[sf_travel_shop t = "wide" bc = "#b94525" bac = "#b5b925" tc = "#2530b9" buc = "#b925b2" butc = "#fcf8fc"]`
 
-[tg_searchboxes options='{"size”:”700x380”}’]
+`[sf_travel_shop t = "narrow" bc = "#221111" bac = "#0bc1e0" tc = "#c7e00b" buc = "#e00b3e" butc = "#100a0b"]`
 
-[tg_searchboxes options='{"size":"728x100"}']
+`[sf_travel_shop t = "dynamic-width" bc = "#8225b9" bac = "#25b9a1" tc = "#7cb925" buc = "#b925a0" butc = "#a7a3a8" w = "350"]`
 
-or simply hit the orange palm tree icon inside your wordpress editor, customize and add a searchbox into your post by a few clicks.
 
-To add a searchbox to your header, footer or sidebar, open the template file in WordPress editor and copy the following code in it (based on the sice you want to use):
+PHP Shortcode :
 
-`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"dynamic"}\']'); ?>`
+`<?php echo do_shortcode('[sf_travel_shop t = "rectangle" bc = "#8853c1" bac = "#f9f7e1" tc = "#7425b9" buc = "#b92547" butc = "#b9ab25"]'); ?>`
 
-`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"160x533”}\’]’); ?>`
+`<?php echo do_shortcode('[sf_travel_shop t = "wide" bc = "#b94525" bac = "#b5b925" tc = "#2530b9" buc = "#b925b2" butc = "#fcf8fc"]'); ?>`
 
-`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"300x250"}\']'); ?>`
+`<?php echo do_shortcode('[sf_travel_shop t = "narrow" bc = "#b94525" bac = "#b5b925" tc = "#2530b9" buc = "#b925b2" butc = "#fcf8fc"]'); ?>`
 
-`<?php echo do_shortcode('[tg_searchboxes options=\'{"size”:”700x380”}\’]’); ?>`
+`<?php echo do_shortcode('[sf_travel_shop t = "dynamic-width" bc = "#8225b9" bac = "#25b9a1" tc = "#7cb925" buc = "#b925a0" butc = "#a7a3a8" w = "350"]'); ?>`
 
-`<?php echo do_shortcode('[tg_searchboxes options=\'{"size":"728x100”}\’]’); ?>`
 
 
 == Frequently Asked Questions ==
