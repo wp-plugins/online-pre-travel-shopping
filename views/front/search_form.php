@@ -5,8 +5,8 @@ $affiliate_value = esc_attr($get_option[affiliate_id]);
 echo "<script>var theme='$themes';</script>";
 
 ?>
-<div class="sf_box sf_<?php echo $themes; ?>" style="border-color:<?php echo $border_color; ?>; background:<?php echo $background_color; ?>; width:<?php if($themes == 'Dynamic'){ echo $custom_width;} ?>px;">
-    <h3 style="color:<?php echo $text_color; ?>;">
+<div class="sf_box sf_<?php echo $themes; ?>" style="border-color:<?php echo $border_color; ?>; background:<?php echo $background_color; ?>; width:<?php if($themes == 'dynamic-width'){ echo $custom_width;} ?>px;">
+    <h3 style="color:<?php echo $text_color; ?>;font-size:32px;">
         Shop the world
         <span style="color:<?php echo $text_color; ?>;">before you leave home!</span> 
     </h3>
@@ -33,13 +33,13 @@ echo "<script>var theme='$themes';</script>";
                 <p class="sf_form_submit">
                     <input type="submit" value="Search" class="sf_search_button" onclick="javascript:void(0)" style="color:<?php echo $button_text_color; ?>; background:<?php echo $button_color; ?>;" />
                 </p>
-                <ul class="sf_steps" style="color:<?php echo $text_color; ?>;">
+                <ul class="sf_steps" style="color:<?php echo $text_color; ?>;display:<?php if($custom_width<400){echo ('none');}?>;">
                     <li class="sf_step_shop" style="color:<?php echo $text_color; ?>;"><i class="icon-shop"></i><span style=" background:<?php echo $background_color; ?>;">Shop</span></li>
                     <li class="sf_step_collect" style="color:<?php echo $text_color; ?>;"><i class="icon-collect"></i><span style=" background:<?php echo $background_color; ?>;">Collect</span></li>
                     <li class="sf_step_fly" style="color:<?php echo $text_color; ?>;"><i class="icon-fly"></i><span style=" background:<?php echo $background_color; ?>;">Fly</span></li>
                 </ul>
                 <br>
-                <span style="color:<?php echo $text_color; ?>;"><a href="https://shopnfly.com" style="color:<?php echo $text_color; ?>;" title="Pre-travel shopping" target="_blank">Pre-travel shopping</a><?php if($themes == 'narrow' || $themes =='wide'){ echo "<br>" ;}?> by shopnfly</span>
+                <span style="color:<?php echo $text_color; ?>;font-size:12px;font-family: 'Helvetica-Neue-Light', Arial;top:5px;"><a href="https://shopnfly.com" style="color:<?php echo $text_color; ?>;" title="Pre-travel shopping" target="_blank">Pre-travel shopping</a><?php if($themes == 'narrow' || $themes =='wide'){ echo "<br>" ;}?> by shopnfly</span>
             </div>
         </form>                        
     </div>
