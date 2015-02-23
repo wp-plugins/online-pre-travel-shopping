@@ -110,21 +110,11 @@ jQuery(function($) {
             }
             else
             {
-            	
-            	if (from == "sf_from")
-                {
-            		from = $(this).find(".sf_airports:input[name=sf_from]").attr("value");
-                }
-            	
-            	if (to == "sf_to")
-                {
-            		to = $(this).find(".sf_airports:input[name=sf_to]").attr("value");
-                }
-            	
-                //var pos_from = from.indexOf("(") + 1;
-                //var from_code = from.slice(pos_from, from.lastIndexOf(")"));
-                //var pos_to = to.indexOf("(") + 1;
-                //var to_code = to.slice(pos_to, to.lastIndexOf(")"));
+                var pos_from = from.indexOf("(") + 1;
+                var from_code = from.slice(pos_from, from.lastIndexOf(")"));
+
+                var pos_to = to.indexOf("(") + 1;
+                var to_code = to.slice(pos_to, to.lastIndexOf(")"));
 
                 //utm data for GA
                 //https://www.shopnfly.com/?utm_source=<site_domain>&utm_medium=wp_plugin&utm_term=what%2Cfrom%2Cto&utm_campaign=wp-<widget_type>

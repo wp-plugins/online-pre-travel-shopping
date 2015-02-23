@@ -9,6 +9,10 @@
 /* 16 Dec 2014; J;	 */
 if (!defined('ABSPATH') || !defined('WPINC'))
     exit();
+/* translation  */
+function myplugin_load_textdomain() {
+load_plugin_textdomain( 'my-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
 
 /* 	defining abs path to the given plugin directory, plugin dir name+plugin name, abs path to the plugin PHP file	 */
 if (!defined('SF_TRAVELSHOPPING_ABSPATH'))

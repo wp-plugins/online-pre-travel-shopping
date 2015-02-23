@@ -54,10 +54,7 @@
         <input class="widget-text sf_color_pick sc_input" id="text_color" name="<?php echo $option_name.'[text_color]'; ?>" type="text" value="<?php echo isset($text_color) ? $text_color : '#ffffff'; ?>" size="13" />
     </p>
     <!-- Button Color -->
-    <p>
-        <label for="buttonColor"><?php _e('Button Color'); ?></label>
-        <input class="widget-text sf_color_pick sc_input" id="button_color" name="<?php echo $option_name.'[button_color]'; ?>" type="text" value="<?php echo isset($button_color) ? $button_color : '#ffffff'; ?>" size="13" />
-    </p>
+    
 
     <!-- Button Text Color -->
     <p>
