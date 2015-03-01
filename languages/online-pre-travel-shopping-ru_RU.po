@@ -1,0 +1,130 @@
+# Copyright (C) 2015 Online Pre-Travel Shopping
+# This file is distributed under the same license as the Online Pre-Travel Shopping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Online Pre-Travel Shopping 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/online-pre-travel-"
+"shopping\n"
+"POT-Creation-Date: 2015-02-23 13:04:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-02-24 13:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#: views/admin/settings.php:22
+msgid "Enter your Shopnfly Affiliate ID:"
+msgstr "Введите свой партнерский ID"
+
+#: views/admin/settings.php:27
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: views/admin/settings.php:47 views/admin/settings.php:51
+msgid "Select"
+msgstr "Выбрать"
+
+#: views/admin/sfts_theme/theme.php:30
+msgid "Color Themes"
+msgstr "Цвет темы"
+
+#: views/admin/sfts_theme/theme.php:38 widget/sftsWidget.php:101
+msgid "Custom Width"
+msgstr "Настраеваемая ширина"
+
+#: views/admin/sfts_theme/theme.php:43 widget/sftsWidget.php:107
+msgid "Border Color"
+msgstr "Цвет рамки"
+
+#: views/admin/sfts_theme/theme.php:48 widget/sftsWidget.php:112
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: views/admin/sfts_theme/theme.php:53 widget/sftsWidget.php:119
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: views/admin/sfts_theme/theme.php:61 widget/sftsWidget.php:131
+msgid "Button Text Color"
+msgstr "Цвет текста на кнопке"
+
+#: views/front/search_form.php:10
+msgid "Shop the world"
+msgstr "Делай покупки во всем мире"
+
+#: views/front/search_form.php:11
+msgid "before you leave home!"
+msgstr "Перед выходом из дома!"
+
+#: views/front/search_form.php:17
+msgid "What would you like to buy?"
+msgstr "Что бы вы хотели купить?"
+
+#: views/front/search_form.php:22
+msgid "From"
+msgstr "Откуда"
+
+#: views/front/search_form.php:23 views/front/search_form.php:27
+msgid "city or airport"
+msgstr ""
+
+#: views/front/search_form.php:26
+msgid "To"
+msgstr "Куда"
+
+#: views/front/search_form.php:34
+msgid "Search"
+msgstr ""
+
+#: views/front/search_form.php:37
+msgid "Shop"
+msgstr "Магазин"
+
+#: views/front/search_form.php:38
+msgid "Collect"
+msgstr "Собирать"
+
+#: views/front/search_form.php:39
+msgid "Fly"
+msgstr "Полет"
+
+#: views/front/search_form.php:42
+msgid "Pre-travel shopping"
+msgstr "Покупки перед путшествием"
+
+#: views/front/search_form.php:42
+msgid " by shopnfly"
+msgstr " с  shopnfly"
+
+#: widget/sftsWidget.php:85
+msgid "Themes:"
+msgstr "Темы"
+
+#: widget/sftsWidget.php:125
+msgid "Button Color"
+msgstr "Цвет кнопки"
+
+#. Plugin Name of the plugin/theme
+msgid "Online Pre-Travel Shopping"
+msgstr "Покупки онлайн перед путешествием"
+
+#. Description of the plugin/theme
+msgid ""
+"Online Pre-Travel Shopping by shopnfly gives you a revolutionary online, pre-"
+"shop shopping search engine, allowing your users to search, compare and buy "
+"a massive range of duty free, in air and local retail products from nearly "
+"every continent. Products like perfumes, spirits, wines, apparel are just "
+"some of the items shoplers like to buy across their trip. With shopnfly, "
+"shoplers can buy all these products and more before they even leave home."
+msgstr ""
+"Интернет магазин Shopnfly представляет вам новую революционную систему "
+"поиска, сравнивания и покупки товаров в DutyFree ,  самолете и местных "
+"розничных магазинах продуктов почти со всех континентов. Такие продукты как "
+"духи, спиртные напитки, вино, одежда лишь малая часть того что вы могли бы "
+"купить перед вашей поездкой. С shopnfly, вы можете приобрести все эти "
+"продукты не выходя из дома."

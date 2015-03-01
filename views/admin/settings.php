@@ -19,12 +19,12 @@
                 ?>
 
                 <p>
-                    <label for="affiliateID"><?php _e('Enter your Shopnfly Affiliate ID:'); ?></label> 
+                    <label for="affiliateID"><?php _e('Enter your Shopnfly Affiliate ID:','online-pre-travel-shopping'); ?></label> 
                     <input class="widget-text" type="text" name="sfts_settings_value[affiliate_id]" id="affiliate_id" value="<? echo $affiliate_value; ?>" placeholder="Your Affiliate ID here" /> In order to get an affiliate id, please press on this <a href="https://www.shopnfly.com/affiliates" target="_blank">link</a>
                 </p>
 
                 <p class="submit">
-                    <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
+                    <input type="submit" class="button-primary" value="<?php _e('Save Changes','online-pre-travel-shopping'); ?>" />
                 </p>
             </form>
         </div>
@@ -44,11 +44,11 @@
             <div class="dynamic-shortcode" style="margin-top:50px;">
                 <h4><i><strong>Implement anywhere on your blog</strong></i></h4>
                 <p>a) To add a searchbox to your header, footer or sidebar, open the template file in WordPress editor and copy the following code in it:</p>
-                <p><input type="text" size="80" value='&lt;?php echo do_shortcode(&#39;[sf_travel_shop t = "rectangle" bc = "#5a5a5a" bac = "#b92525" tc = "#ffffff" buc = "#ffffff" butc = "#b92525"]&#39;); ?&gt;' id="sftp_shortcode_php" onclick="this.select();" readonly /> <input type="button" class="button-highlighted button-primary" value="<?php _e('Select') ?>" onclick="javascript:jQuery(this).prev().select();" /></p>
+                <p><input type="text" size="80" value='&lt;?php echo do_shortcode(&#39;[sf_travel_shop t = "rectangle" bc = "#5a5a5a" bac = "#b92525" tc = "#ffffff" buc = "#ffffff" butc = "#b92525"]&#39;); ?&gt;' id="sftp_shortcode_php" onclick="this.select();" readonly /> <input type="button" class="button-highlighted button-primary" value="<?php _e('Select','online-pre-travel-shopping'); ?>" onclick="javascript:jQuery(this).prev().select();" /></p>
 
                 <h4><i><strong>Implement inside a post/page</strong></i></h4>
                 <p>a) Copy the following shorcode into any post/page inside WordPress visual editor:</p>
-                <p><input type="text" size="80" value='[sf_travel_shop t = "rectangle" bc = "#5a5a5a" bac = "#b92525" tc = "#ffffff" buc = "#ffffff" butc = "#b92525"]' id="sftp_shortcode" onclick="this.select();" readonly /> <input type="button" class="button-highlighted button-primary" value="<?php _e('Select') ?>" onclick="javascript:jQuery(this).prev().select();" /></p>                
+                <p><input type="text" size="80" value='[sf_travel_shop t = "rectangle" bc = "#5a5a5a" bac = "#b92525" tc = "#ffffff" buc = "#ffffff" butc = "#b92525"]' id="sftp_shortcode" onclick="this.select();" readonly /> <input type="button" class="button-highlighted button-primary" value="<?php _e('Select','online-pre-travel-shopping'); ?>" onclick="javascript:jQuery(this).prev().select();" /></p>                
             </div>
         </div>
     </div>

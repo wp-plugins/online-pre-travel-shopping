@@ -6,6 +6,8 @@
                 'sfts-widget', // Base ID
                 'Shopnfly Travel Shopping Widget', // Name
                 array('classname' => 'swsbWidget', 'description' => 'Shop the world, before you leave home!') // Args
+								
+
         );
     }
 
@@ -82,7 +84,7 @@
         <!-- Themes -->
         <div class="sf_widget_content">
             <p>
-                <label for="<?php echo $this->get_field_name('themes'); ?>"><?php _e('Themes:'); ?></label> 
+                <label for="<?php echo $this->get_field_name('themes'); ?>"><?php _e('Themes:','online-pre-travel-shopping'); ?></label> 
 
                 <select id="<?php echo $this->get_field_id('themes'); ?>" name="<?php echo $this->get_field_name('themes'); ?>" class="widget-sel">
                     <?php
@@ -98,37 +100,37 @@
 			
 			<!-- Custom Width -->
             <p class="sf_custom_widget_width">
-                <label for="<?php echo $this->get_field_name('custom_width'); ?>"><?php _e('Custom Width'); ?></label> 
+                <label for="<?php echo $this->get_field_name('custom_width'); ?>"><?php _e('Custom Width','online-pre-travel-shopping'); ?></label> 
                 <input class="widget-text widget-cw" id="<?php echo $this->get_field_id('custom_width'); ?>" name="<?php echo $this->get_field_name('custom_width'); ?>" type="text" value="<?php echo $custom_width; ?>" size="13" />
             </p> 
 
             <!-- Border Color -->
             <p>
-                <label for="<?php echo $this->get_field_name('border_color'); ?>"><?php _e('Border Color'); ?></label> 
+                <label for="<?php echo $this->get_field_name('border_color'); ?>"><?php _e('Border Color','online-pre-travel-shopping'); ?></label> 
                 <input class="widget-text sf_color_pick widget-bc" id="<?php echo $this->get_field_id('border_color'); ?>" name="<?php echo $this->get_field_name('border_color'); ?>" type="text" value="<?php echo $border_color; ?>" size="13" />
             </p>               
             <!-- Background Color -->
             <p>
-                <label for="<?php echo $this->get_field_name('background_color'); ?>"><?php _e('Background Color'); ?></label> 
+                <label for="<?php echo $this->get_field_name('background_color'); ?>"><?php _e('Background Color','online-pre-travel-shopping'); ?></label> 
                 <input class="widget-text sf_color_pick widget-bgc" id="<?php echo $this->get_field_id('background_color'); ?>" name="<?php echo $this->get_field_name('background_color'); ?>" type="text" value="<?php echo $background_color; ?>" size="13" />
             </p>
 
 
             <!-- Text Color -->
             <p>
-                <label for="<?php echo $this->get_field_name('text_color'); ?>"><?php _e('Text Color'); ?></label> 
+                <label for="<?php echo $this->get_field_name('text_color'); ?>"><?php _e('Text Color','online-pre-travel-shopping'); ?></label> 
                 <input class="widget-text sf_color_pick widget-tc" id="<?php echo $this->get_field_id('text_color'); ?>" name="<?php echo $this->get_field_name('text_color'); ?>" type="text" value="<?php echo $text_color; ?>" size="13" />
             </p>
 
             <!-- Button Color -->
             <p>
-                <label for="<?php echo $this->get_field_name('button_color'); ?>"><?php _e('Button Color'); ?></label> 
+                <label for="<?php echo $this->get_field_name('button_color'); ?>"><?php _e('Button Color','online-pre-travel-shopping'); ?></label> 
                 <input class="widget-text sf_color_pick widget-bnc" id="<?php echo $this->get_field_id('button_color'); ?>" name="<?php echo $this->get_field_name('button_color'); ?>" type="text" value="<?php echo $button_color; ?>" size="13" />
             </p>
 
             <!-- Button Text Color -->
             <p>
-                <label for="<?php echo $this->get_field_name('button_text_color'); ?>"><?php _e('Button Text Color'); ?></label> 
+                <label for="<?php echo $this->get_field_name('button_text_color'); ?>"><?php _e('Button Text Color','online-pre-travel-shopping'); ?></label> 
                 <input class="widget-text sf_color_pick widget-btc" id="<?php echo $this->get_field_id('button_text_color'); ?>" name="<?php echo $this->get_field_name('button_text_color'); ?>" type="text" value="<?php echo $button_text_color; ?>" size="13" />
             </p>
 

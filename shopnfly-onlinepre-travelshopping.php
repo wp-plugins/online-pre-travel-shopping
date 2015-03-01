@@ -3,6 +3,8 @@
 /*
   Plugin Name: Online Pre-Travel Shopping
   Description: Online Pre-Travel Shopping by shopnfly gives you a revolutionary online, pre-shop shopping search engine, allowing your users to search, compare and buy a massive range of duty free, in air and local retail products from nearly every continent. Products like perfumes, spirits, wines, apparel are just some of the items shoplers like to buy across their trip. With shopnfly, shoplers can buy all these products and more before they even leave home.
+  Text Domain: online-pre-travel-shopping
+  Domain Path:/languages/
   Version: 1.1
   License: GPL 2
  */
@@ -10,9 +12,10 @@
 if (!defined('ABSPATH') || !defined('WPINC'))
     exit();
 /* translation  */
-function myplugin_load_textdomain() {
-load_plugin_textdomain( 'my-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-}
+add_action('plugins_loaded', 'smart_seo_load_translation_files');
+ function smart_seo_load_translation_files() {
+  load_plugin_textdomain('online-pre-travel-shopping', false, dirname(plugin_basename(__FILE__)).'/languages/');
+ }
 
 /* 	defining abs path to the given plugin directory, plugin dir name+plugin name, abs path to the plugin PHP file	 */
 if (!defined('SF_TRAVELSHOPPING_ABSPATH'))
@@ -23,6 +26,8 @@ if (!defined('SF_TRAVELSHOPPING__FILE__'))
     define('SF_TRAVELSHOPPING__FILE__', __FILE__);
 if (!defined('SF_VER'))
     define('SF_VER', '1.1');
+    
+
 
 /** 	Include file with the Widget Class	 */
 require_once ( SF_TRAVELSHOPPING_ABSPATH . 'widget/sftsWidget.php' );
@@ -98,4 +103,5 @@ function theme_update_request() {
 }
 
 add_action('wp_ajax_theme_update_request', 'theme_update_request');
+
 ?>

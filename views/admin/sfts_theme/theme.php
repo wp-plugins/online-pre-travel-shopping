@@ -27,7 +27,7 @@
 	<input type="hidden" value="<?php echo admin_url( 'admin.php?page=sfts-settings' ); ?>" name="_wp_http_referer">
 	<!-- Custom Width -->
     <p class="color_themes">
-        <label for="color_themes"><?php _e('Color Themes'); ?></label>
+        <label for="color_themes"><?php _e('Color Themes','online-pre-travel-shopping'); ?></label>
         <select id="color_themes" name="color_themes">
             <option value="red">Red</option>
             <option value="grey">Grey</option>
@@ -35,22 +35,22 @@
     </p> 
     <!-- Custom Width -->
     <p class="custom_width">
-        <label for="customwidth"><?php _e('Custom Width'); ?></label>
+        <label for="customwidth"><?php _e('Custom Width','online-pre-travel-shopping'); ?></label>
         <input class="widget-text sc_input" id="custom_width" name="<?php echo $option_name.'[custom_width]'; ?>" type="text" value="<?php echo $custom_width; ?>" size="13" />
     </p>  
     <!-- Border Color -->
     <p>
-        <label for="borderColor"><?php _e('Border Color'); ?></label>
+        <label for="borderColor"><?php _e('Border Color','online-pre-travel-shopping'); ?></label>
         <input class="widget-text sf_color_pick sc_input" id="border_color" name="<?php echo $option_name.'[border_color]'; ?>" type="text" value="<?php echo isset($border_color) ? $border_color : '#5a5a5a';?>" size="13" />
     </p>               
     <!-- Background Color -->
     <p>
-        <label for="backgroundColor"><?php _e('Background Color'); ?></label>
+        <label for="backgroundColor"><?php _e('Background Color','online-pre-travel-shopping'); ?></label>
         <input class="widget-text sf_color_pick sc_input" id="background_color" name="<?php echo $option_name.'[background_color]'; ?>" type="text" value="<?php echo isset($background_color) ? $background_color : '#b92525'; ?>" size="13" />
     </p>
     <!-- Text Color -->
     <p>
-        <label for="textColor"><?php _e('Text Color'); ?></label>
+        <label for="textColor"><?php _e('Text Color','online-pre-travel-shopping'); ?></label>
         <input class="widget-text sf_color_pick sc_input" id="text_color" name="<?php echo $option_name.'[text_color]'; ?>" type="text" value="<?php echo isset($text_color) ? $text_color : '#ffffff'; ?>" size="13" />
     </p>
     <!-- Button Color -->
@@ -58,7 +58,7 @@
 
     <!-- Button Text Color -->
     <p>
-        <label for="buttonTextColor"><?php _e('Button Text Color'); ?></label>
+        <label for="buttonTextColor"><?php _e('Button Text Color','online-pre-travel-shopping'); ?></label>
         <input class="widget-text sf_color_pick sc_input" id="button_text_color" name="<?php echo $option_name.'[button_text_color]'; ?>" type="text" value="<?php echo isset($button_text_color) ? $button_text_color : '#b92525'; ?>" size="13" />
     </p>
 

@@ -1,0 +1,129 @@
+# Copyright (C) 2015 Online Pre-Travel Shopping
+# This file is distributed under the same license as the Online Pre-Travel Shopping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Online Pre-Travel Shopping 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/online-pre-travel-"
+"shopping\n"
+"POT-Creation-Date: 2015-02-23 13:04:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-02-26 13:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: views/admin/settings.php:22
+msgid "Enter your Shopnfly Affiliate ID:"
+msgstr "Ingresar usuario de Shopnfly"
+
+#: views/admin/settings.php:27
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: views/admin/settings.php:47 views/admin/settings.php:51
+msgid "Select"
+msgstr "Seleccionar"
+
+#: views/admin/sfts_theme/theme.php:30
+msgid "Color Themes"
+msgstr "Temas de colores"
+
+#: views/admin/sfts_theme/theme.php:38 widget/sftsWidget.php:101
+msgid "Custom Width"
+msgstr "Personalizar ancho"
+
+#: views/admin/sfts_theme/theme.php:43 widget/sftsWidget.php:107
+msgid "Border Color"
+msgstr "Color de Borde"
+
+#: views/admin/sfts_theme/theme.php:48 widget/sftsWidget.php:112
+msgid "Background Color"
+msgstr "Color de Fondo "
+
+#: views/admin/sfts_theme/theme.php:53 widget/sftsWidget.php:119
+msgid "Text Color"
+msgstr "Color de Texto"
+
+#: views/admin/sfts_theme/theme.php:61 widget/sftsWidget.php:131
+msgid "Button Text Color"
+msgstr "Color de Boton de texto"
+
+#: views/front/search_form.php:10
+msgid "Shop the world"
+msgstr "Compra el mundo"
+
+#: views/front/search_form.php:11
+msgid "before you leave home!"
+msgstr "Antes de salir de casa"
+
+#: views/front/search_form.php:17
+msgid "What would you like to buy?"
+msgstr "Que te gustaría comprar?"
+
+#: views/front/search_form.php:22
+msgid "From"
+msgstr "Desde"
+
+#: views/front/search_form.php:23 views/front/search_form.php:27
+msgid "city or airport"
+msgstr "ciudad o aeropuerto"
+
+#: views/front/search_form.php:26
+msgid "To"
+msgstr "Hasta"
+
+#: views/front/search_form.php:34
+msgid "Search"
+msgstr "Buscar"
+
+#: views/front/search_form.php:37
+msgid "Shop"
+msgstr "Comprar"
+
+#: views/front/search_form.php:38
+msgid "Collect"
+msgstr "Recoger"
+
+#: views/front/search_form.php:39
+msgid "Fly"
+msgstr "Volá"
+
+#: views/front/search_form.php:42
+msgid "Pre-travel shopping"
+msgstr "Compras pre-viaje"
+
+#: views/front/search_form.php:42
+msgid " by shopnfly"
+msgstr "Por Shopnfly"
+
+#: widget/sftsWidget.php:85
+msgid "Themes:"
+msgstr "Temas"
+
+#: widget/sftsWidget.php:125
+msgid "Button Color"
+msgstr "Color de botón"
+
+#. Plugin Name of the plugin/theme
+msgid "Online Pre-Travel Shopping"
+msgstr "Compras pre-viaje online"
+
+#. Description of the plugin/theme
+msgid ""
+"Online Pre-Travel Shopping by shopnfly gives you a revolutionary online, pre-"
+"shop shopping search engine, allowing your users to search, compare and buy "
+"a massive range of duty free, in air and local retail products from nearly "
+"every continent. Products like perfumes, spirits, wines, apparel are just "
+"some of the items shoplers like to buy across their trip. With shopnfly, "
+"shoplers can buy all these products and more before they even leave home."
+msgstr ""
+"La compra pre-viaje online por Shopnfly trae una herramienta de busqueda "
+"revolucionaria a la compra online, permitiendo que tus usuarios puedan "
+"buscar, comparar y comprar una gran suma de productos, ya sea en el duty "
+"free, en el aire o mismo en los locales de venta de casi todos los "
+"continentes. Productos como perfumes, bebidas vinos, ropa son solo algunos "
+"de tantos items que los shoplers eligen comprar cuando viajan. Con Shopnfly, "
+"los Shoplers pueden comprar todos estos productos y muchos más incluso antes "
+"de que salgan de sus hogares."
